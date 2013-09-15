@@ -1,14 +1,15 @@
-class Employee;
+#ifndef _AD_MANAGER_H_
+#define _AD_MANAGER_H_
+
+#include "Employee.h"
 
 class Manager
-   {
-   private:
-      int totalHours;
-   protected:
-   private:
-      Manager();
+{
+    int totalHours;
+public:
+    Manager();
+    void getWorkerHours(Employee* emp);
+    void report();
+};
 
-      void getWorkerHours(Employee* emp);
-
-      void report();
-   };
+#endif
