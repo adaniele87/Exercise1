@@ -56,6 +56,7 @@ int main()
     alex.report();
     sarah.report();
     man.report();
+    man.report();
     
     return 0;
 }
